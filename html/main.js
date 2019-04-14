@@ -1,11 +1,23 @@
 /*
+========== kadai_4 ==========
+*/
+let msg = '';
+for (let i = 0; i <= 100; i++){
+  msg += `${i} `
+  if (i % 5 === 0 && i !== 0) {
+    msg += '<br>'
+  }
+}
+
+document.getElementById('result').innerHTML = msg;
+/*
 ========== kadai_3 ==========
 */
-let message = '';
-for( let i = 0; i <= 100; i++){
-  message += `${i} `
-}
-document.getElementById('result').innerHTML = message;
+// let message = '';
+// for( let i = 0; i <= 100; i++){
+//   message += `${i} `
+// }
+// document.getElementById('result').innerHTML = message;
 
 
 /*
